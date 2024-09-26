@@ -1,5 +1,5 @@
 ---
-title: "Download template_data_repo"
+title: "Download regmem_vector_search"
 layout: datasets/front
 ---
 
