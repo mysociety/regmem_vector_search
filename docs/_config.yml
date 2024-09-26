@@ -1,8 +1,8 @@
 theme: jekyll-theme-slate
-title: template_data_repo
-description: Standardised template for mysociety data repositories
+title: regmem_vector_search
+description: Store rolling vector search of twfy
 
-baseurl: "/template_data_repo"
+baseurl: "/regmem_vector_search"
 url: "https://pages.mysociety.org"
 
 collections:
