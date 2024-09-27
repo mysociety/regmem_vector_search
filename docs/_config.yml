@@ -14,9 +14,15 @@ collections:
     output: true
   analysis:
     output: true
-
+  vol:
+    output: true
 
 defaults:
+  - scope:
+      path: ""
+      type: vol
+    values:
+      layout: datasets/analysis
   - scope:
       path: ""
       type: analysis
