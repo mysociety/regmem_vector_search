@@ -1,5 +1,5 @@
 theme: jekyll-theme-slate
-title: Interests mentions vector seach
+title: Interests mentions vector search
 description: Store rolling vector search of twfy
 
 baseurl: "/regmem_vector_search"
