@@ -1,0 +1,11 @@
+title: "{{page_title}}"
+slug: "{{page_title.lower().replace(' ', '_')}}"
+notebooks:
+  - infer_last_month
+parameters:
+  page_title: "RFMI Possible mentions"
+options:
+  rerun: true
+  hide_input: true
+upload:
+  jekyll:
