@@ -24,12 +24,12 @@ jobs:
         uses: actions/checkout@v3
         with:
           submodules: 'recursive'
-          
-    - name: Create dotenv
-      env:
-        HF_TOKEN: ${{ secrets.HF_TOKEN }}
-      run: |
-        echo "HF_TOKEN=$HF_TOKEN" >> .env
+            
+      - name: Create dotenv
+        env:
+          HF_TOKEN: ${{ secrets.HF_TOKEN }}
+        run: |
+          echo "HF_TOKEN=$HF_TOKEN" >> .env
 
       - name: Run tests and try and build project
         uses: mysociety/run-in-devcontainer@v1
