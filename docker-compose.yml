@@ -7,3 +7,5 @@ services:
     working_dir: /workspaces/regmem_vector_search      
     volumes:
       - ./:/workspaces/regmem_vector_search/
+    environment:
+      - HF_TOKEN=${HF_TOKEN:-xxx}
