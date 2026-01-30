@@ -2640,7 +2640,7 @@ tqdm = "^4.66.5"
 type = "git"
 url = "https://github.com/mysociety/mini-transcript-search"
 reference = "HEAD"
-resolved_reference = "e5d7e5dddd92f2f65194a8f386579db19b1f7dc4"
+resolved_reference = "a458f0024d3550204c71f83a11a0e3b2aa85420e"
 
 [[package]]
 name = "mistune"
