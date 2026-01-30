@@ -3007,7 +3007,7 @@ tqdm = "^4.66.5"
 type = "git"
 url = "https://github.com/mysociety/mini-transcript-search"
 reference = "HEAD"
-resolved_reference = "85915c7a73417699150157daefa5fbf54362a104"
+resolved_reference = "ea6b9ad91b497f8c8c3037d324a5795ab197882f"
 
 [[package]]
 name = "mistune"
@@ -6523,4 +6523,4 @@ files = [
 [metadata]
 lock-version = "2.1"
 python-versions = ">=3.10,<3.11"
-content-hash = "39e85b6e7901219aeeafdf9d6054fb3705109a8ce8bad525a98b50fb5907a0b2"
+content-hash = "ccf04b6affb7561bcd03361d6af5eea9d6da2345c8cfab5e139dba04e5f0637c"
