@@ -28,7 +28,7 @@ def get_handler(storage_path: Path) -> ModelHandler:
         use_local_model=False,
         override_stored=False,
         storage_path=storage_path,
-        silent=False,
+        silent=True,
     )
 
 
