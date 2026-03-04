@@ -8,3 +8,4 @@ _render/search
 docs/_site
 UNKNOWN.egg-info
 data/parlparse_xmls
+data/regmem_vector_search/search_results.sqlite
