@@ -9,3 +9,4 @@ services:
       - ./:/workspaces/regmem_vector_search/
     environment:
       - HF_TOKEN=${HF_TOKEN:-xxx}
+      - OPENAI_API_KEY=${OPENAI_API_KEY:-xxx}

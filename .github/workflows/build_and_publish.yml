@@ -26,12 +26,25 @@ jobs:
         uses: actions/checkout@v3
         with:
           submodules: 'recursive'
+
+      - name: Restore cached data
+        uses: actions/cache@v4
+        with:
+          path: |
+            data/parlparse_xmls
+            data/regmem_vector_search
+          key: data-cache-${{ github.run_id }}
+          restore-keys: |
+            data-cache-
             
       - name: Create dotenv
         env:
           HF_TOKEN: ${{ secrets.HF_TOKEN }}
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
         run: |
           echo "HF_TOKEN=$HF_TOKEN" >> .env
+          echo "OPENAI_API_KEY=$OPENAI_API_KEY" >> .env
+
 
       - name: Run tests and try and build project
         uses: mysociety/run-in-devcontainer@v1
