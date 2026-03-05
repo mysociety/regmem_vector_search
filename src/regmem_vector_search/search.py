@@ -78,7 +78,7 @@ def search_last_month(
         storage_format=SearchResult,
     )
 
-    cache_key = _search_cache_key(one_month_ago, today, threshold)
+    cache_key = _search_cache_key(one_month_ago, today, threshold) + "para"
     results = store.get(cache_key)
 
     if results is None:
@@ -89,6 +89,7 @@ def search_last_month(
             date_range=last_month,
             chamber=ModelHandler.Chamber.COMMONS,
             transcript_type=ModelHandler.TranscriptType.DEBATES,
+            return_paragraph=True,
         )
         store[cache_key] = results
 

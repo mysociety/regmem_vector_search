@@ -4331,7 +4331,7 @@ tqdm = "^4.66.5"
 type = "git"
 url = "https://github.com/mysociety/mini-transcript-search"
 reference = "HEAD"
-resolved_reference = "f5baf9f485273b9926d94647e0e5a554e98b0da5"
+resolved_reference = "1ec9f27a0ac7f434d88e07678d928de3a23d0e2f"
 
 [[package]]
 name = "mistralai"
